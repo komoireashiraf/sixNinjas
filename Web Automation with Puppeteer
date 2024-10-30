@@ -1,0 +1,14 @@
+// sixNinjas - Web Scraper Ninja: Automating Data Extraction with Puppeteer
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://example.com');
+
+  // Extracting specific content
+  const heading = await page.evaluate(() => document.querySelector('h1').innerText);
+  console.log(`Page Heading: ${heading}`);
+
+  await browser.close();
+})();
