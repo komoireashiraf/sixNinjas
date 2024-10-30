@@ -1,0 +1,21 @@
+#!/bin/bash
+# sixNinjas - Auto Deployment Script
+
+echo "Starting deployment..."
+
+# Pull latest changes from the GitHub repository
+git pull origin main
+
+# Install any new dependencies
+echo "Installing dependencies..."
+npm install
+
+# Build the project
+echo "Building the project..."
+npm run build
+
+# Restart the server
+echo "Restarting the server..."
+pm2 restart sixNinjas
+
+echo "Deployment complete!"
