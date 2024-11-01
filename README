@@ -1,17 +1,17 @@
 # sixNinjas
 
-## Overview
+## Overview.
 
 sixNinjas is a repository focused on showcasing high-level automation, algorithms, and optimization techniques for modern web development and programming challenges. This project highlights best practices for building efficient and scalable solutions, whether through code optimizations or development tools.
 
-## Key Features
+## Key Features!
 - **Fast algorithms**: Ninja-style sorting and searching techniques.
 - **Web automation**: Extract, automate, and interact with websites effortlessly.
 - **Responsive UI**: Minimalistic dashboard examples for front-end projects.
 - **Deployment scripts**: Automate and streamline your deployment process.
 - **Database management**: Efficient query strategies for optimal performance.
 
-## Getting Started
+## Getting Started!
 
 1. Clone this repository:
    ```bash
@@ -24,14 +24,14 @@ npm install
 3.Run the example scripts:
 npm start
 
-## Technologies Used
+## Technologies Used!
 - Python for algorithm demonstrations.
 - JavaScript and Node.js for web automation.
 - HTML/CSS/JS for front-end design.
 - Bash for automation scripts.
 - SQL for database optimization.
 
-## Contributing
+## Contributing!
 Feel free to submit pull requests or report issues.
 
 License
